@@ -4,7 +4,7 @@ import Home1 from "../../components/home/home1";
 import Home2 from "../../components/home/home2";
 import Home3 from "../../components/home/home3";
 import Home4 from "../../components/home/home4";
-import Home5 from "../../components/home/home5";
+// import Home5 from "../../components/home/home5";
 import Navbar from "../../components/header/header";
 import Home6 from "../../components/home/home6";
 
