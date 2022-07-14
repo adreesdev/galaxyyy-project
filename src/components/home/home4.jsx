@@ -48,6 +48,7 @@ const Home4 = () => {
 					py={20}
 					pl={{ sm: 10, xs: 0 }}
 					width={{ md: "45%", sm: "75%", xs: "100%" }}
+					sx={{ zIndex: "1" }}
 				>
 					<Typography variant="subtitle" color="primary">
 						04 Swap <br />
