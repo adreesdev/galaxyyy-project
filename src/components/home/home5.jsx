@@ -14,11 +14,11 @@ const Home5 = () => {
 						<Grid
 							container
 							py={5}
-							// sx={{
-							// 	display: "flex",
-							// 	justifyContent: "center",
-							// 	alignItems: "center",
-							// }}
+							sx={{
+								display: "flex",
+								justifyContent: "center",
+								alignItems: "center",
+							}}
 						>
 							<Grid item md={6} sm={12} xs={12} py={1}>
 								<Box sx={{ position: "relative" }}>
@@ -132,7 +132,7 @@ const Home5 = () => {
 								</Box>
 							</Grid>
 							<Grid item md={6} sm={12} xs={12} py={1}>
-								<Box sx={{ position: "relative" }}>
+								<Box sx={{ position: "relative", wordBreak: "break-all" }}>
 									<img
 										src="/assets/images/token.png"
 										alt="token"
@@ -172,19 +172,19 @@ const Home5 = () => {
 						alignItems: "center",
 					}}
 				>
-					<Grid item md={5}>
+					<Grid item md={6}>
 						<img
 							src="/assets/images/chart.png"
 							alt="chart"
-							style={{ width: ("100%", "650px") }}
+							style={{ width: "100%" }}
 						/>
 					</Grid>
-					<Grid item md={2}></Grid>
-					<Grid item md={5}>
+
+					<Grid item md={6}>
 						<img
 							src="/assets/images/tokenDistribution.png"
 							alt="chart"
-							style={{ width: ("100%", "400px") }}
+							style={{ width: ("100%", "330px") }}
 						/>
 					</Grid>
 				</Grid>
