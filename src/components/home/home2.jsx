@@ -14,7 +14,7 @@ const Home2 = () => {
 						/>
 					</Grid>
 					<Grid item md={6} py={{ md: 0, sm: 2, xs: 2 }}>
-						<Typography variant="subtitle" color="primary">
+						<Typography variant="subtitle" color="primary" id="about">
 							01 About <br />
 							______
 						</Typography>

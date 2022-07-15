@@ -16,7 +16,6 @@ import React, { useState } from "react";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
-
 const Navbar = (props) => {
 	const [state, setState] = useState({
 		left: false,
@@ -46,12 +45,30 @@ const Navbar = (props) => {
 		>
 			<List>
 				{[
-					"About",
-					"Features",
-					"Multichain",
-					"Swap",
-					"Tokenomics",
-					"Roadmap",
+					<Link href="#about" sx={{ color: "#000", textDecoration: "none" }}>
+						About
+					</Link>,
+					<Link href="#features" sx={{ color: "#000", textDecoration: "none" }}>
+						Features
+					</Link>,
+					<Link
+						href="#multichain"
+						sx={{ color: "#000", textDecoration: "none" }}
+					>
+						Multichain
+					</Link>,
+					<Link href="#swap" sx={{ color: "#000", textDecoration: "none" }}>
+						Swap
+					</Link>,
+					<Link
+						href="#tokenomics"
+						sx={{ color: "#000", textDecoration: "none" }}
+					>
+						Tokenomics
+					</Link>,
+					<Link href="#roadmap" sx={{ color: "#000", textDecoration: "none" }}>
+						Roadmap
+					</Link>,
 				].map((text, index) => (
 					<ListItem key={text} disablePadding>
 						<ListItemButton>
@@ -71,7 +88,7 @@ const Navbar = (props) => {
 							<ListItemIcon>
 								<DoubleArrowIcon />
 							</ListItemIcon>
-							<ListItemText primary={text} />
+							<ListItemText primary={text} sx={{ color: "#000" }} />
 						</ListItemButton>
 					</ListItem>
 				))}
@@ -130,7 +147,11 @@ const Navbar = (props) => {
 							<Grid
 								item
 								xs={10}
-								sx={{ display: "flex", justifyContent: "flex-end" }}
+								sx={{
+									display: "flex",
+									justifyContent: "flex-end",
+									zIndex: "1",
+								}}
 							>
 								<Box
 									width="100%"
@@ -144,7 +165,7 @@ const Navbar = (props) => {
 									<Link
 										color="secondary"
 										variant="header"
-										href="#"
+										href="#about"
 										underline="none"
 									>
 										About
@@ -152,7 +173,7 @@ const Navbar = (props) => {
 									<Link
 										color="secondary"
 										variant="header"
-										href="#"
+										href="#features"
 										underline="none"
 									>
 										Features
@@ -160,7 +181,7 @@ const Navbar = (props) => {
 									<Link
 										color="secondary"
 										variant="header"
-										href="#"
+										href="#multichain"
 										underline="none"
 									>
 										Multichain
@@ -168,7 +189,7 @@ const Navbar = (props) => {
 									<Link
 										color="secondary"
 										variant="header"
-										href="#"
+										href="#swap"
 										underline="none"
 									>
 										Swap
@@ -176,7 +197,7 @@ const Navbar = (props) => {
 									<Link
 										color="secondary"
 										variant="header"
-										href="#"
+										href="#tokenomics"
 										underline="none"
 									>
 										Tokenomics
@@ -184,7 +205,7 @@ const Navbar = (props) => {
 									<Link
 										color="secondary"
 										variant="header"
-										href="#"
+										href="#roadmap"
 										underline="none"
 									>
 										Roadmap

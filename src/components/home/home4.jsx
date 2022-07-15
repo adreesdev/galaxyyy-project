@@ -6,7 +6,7 @@ const Home4 = () => {
 	return (
 		<>
 			<Container>
-				<Typography variant="subtitle" color="primary">
+				<Typography variant="subtitle" color="primary" id="multichain">
 					03 Multichain <br />
 					______
 				</Typography>
@@ -50,7 +50,7 @@ const Home4 = () => {
 					width={{ md: "45%", sm: "75%", xs: "100%" }}
 					sx={{ zIndex: "1" }}
 				>
-					<Typography variant="subtitle" color="primary">
+					<Typography variant="subtitle" color="primary" id="swap">
 						04 Swap <br />
 						______
 					</Typography>

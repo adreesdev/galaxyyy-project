@@ -6,7 +6,7 @@ const Home5 = () => {
 		<>
 			<Container>
 				<Box py={20}>
-					<Typography variant="subtitle" color="primary">
+					<Typography variant="subtitle" color="primary" id="tokenomics">
 						05 Tokenomics <br />
 						______
 					</Typography>

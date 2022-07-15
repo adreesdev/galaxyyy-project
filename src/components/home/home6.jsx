@@ -118,7 +118,7 @@ const Home6 = () => {
 		<>
 			<Container>
 				<Box pt={20} textAlign="center">
-					<Typography variant="subtitle" color="primary">
+					<Typography variant="subtitle" color="primary" id="roadmap">
 						06 RoadMap <br />
 						______
 					</Typography>

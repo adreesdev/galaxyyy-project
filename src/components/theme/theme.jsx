@@ -12,6 +12,9 @@ let theme = createTheme({
 			primary: "#fff",
 			secondary: "#999999",
 		},
+		text2: {
+			primary: "#000",
+		},
 	},
 	typography: {
 		h2: {

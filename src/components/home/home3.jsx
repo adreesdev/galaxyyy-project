@@ -4,7 +4,7 @@ import React from "react";
 const Home3 = () => {
 	return (
 		<>
-			<Container>
+			<Container id="features">
 				<Box py={20}>
 					<img src="/assets/images/video.png" alt="video" width="100%" />
 				</Box>
